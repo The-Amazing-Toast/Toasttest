@@ -445,3 +445,9 @@
 	desc = "A necklace made out of a wolf's fang and some sinew. According to a common Frontier superstition, it brings good luck to its wearer."
 	icon_state = "fang_necklace"
 	cuttable = FALSE
+
+/obj/item/toy/plush/snakeplushie
+	body_parts_covered = NECK
+	slot_flags = ITEM_SLOT_NECK
+	strip_delay = 40
+	equip_delay_other = 40
